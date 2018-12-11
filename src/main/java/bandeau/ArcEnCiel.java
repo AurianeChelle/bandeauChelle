@@ -21,15 +21,15 @@ public class ArcEnCiel extends Effets {
     public void afficher() {
             monBandeau.setMessage("Arc en Ciel !");
             monBandeau.setForeground(Color.BLUE);
-            monBandeau.sleep(100);
+            monBandeau.sleep(300);
             monBandeau.setForeground(Color.GREEN);
-            monBandeau.sleep(100);
+            monBandeau.sleep(300);
             monBandeau.setForeground(Color.MAGENTA);
-            monBandeau.sleep(100);
+            monBandeau.sleep(300);
             monBandeau.setForeground(Color.RED);
-            monBandeau.sleep(100);
+            monBandeau.sleep(300);
             monBandeau.setForeground(Color.YELLOW);
-            monBandeau.sleep(100);
+            monBandeau.sleep(300);
         
     }
 }

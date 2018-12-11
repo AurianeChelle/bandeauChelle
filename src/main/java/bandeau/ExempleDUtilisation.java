@@ -15,7 +15,7 @@ public class ExempleDUtilisation {
         Color back = monBandeau.getBackground();
         Color fore = monBandeau.getForeground();
 
-        /*monBandeau.setMessage("Hello");
+        monBandeau.setMessage("Hello");
 		monBandeau.sleep(1000);
 		monBandeau.setMessage("On va changer de police");
 		monBandeau.sleep(1000);
@@ -54,17 +54,8 @@ public class ExempleDUtilisation {
 		monBandeau.setForeground(fore);
 		monBandeau.setBackground(back);
 		monBandeau.setMessage("Termine");
-		//System.exit(0);*/
-        Tourner t = new Tourner(monBandeau);
-        Clignoter c = new Clignoter(monBandeau);
-        Zoomer z = new Zoomer(monBandeau);
-        ArcEnCiel a = new ArcEnCiel(monBandeau);
-        Scenario s = new Scenario();
-        s.addEffets(t, 2);
-        s.addEffets(c, 5);
-        s.addEffets(z, 1);
-        s.addEffets(a, 1);
-        s.AfficherTousLesEffets();
+		//System.exit(0);
+
                 
                         
              
