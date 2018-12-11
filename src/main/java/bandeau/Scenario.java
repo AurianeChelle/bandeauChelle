@@ -19,7 +19,7 @@ public class Scenario {
     }
     
     public void addEffets(Effets e, int repetition){
-        for(int i=0; i>=repetition; i++){
+        for(int i=0; i<repetition; i++){
             monScenario.add(e);
         }
     }
