@@ -11,7 +11,7 @@ public class ExempleDUtilisation {
     }
     
     public void exemple() {
-        /**Font font = monBandeau.getFont();
+        Font font = monBandeau.getFont();
         Color back = monBandeau.getBackground();
         Color fore = monBandeau.getForeground();
 
@@ -55,7 +55,7 @@ public class ExempleDUtilisation {
 		monBandeau.setBackground(back);
 		monBandeau.setMessage("Termine");
 		//System.exit(0);
-                */
+                
                         
              
     

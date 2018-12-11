@@ -11,7 +11,7 @@ package bandeau;
  */
 public class Clignoter extends Effets {
     
-    public Clignoter(Bandeau monBandeau, int repetition){
+    public Clignoter(Bandeau monBandeau){
        super(monBandeau);
     }
     

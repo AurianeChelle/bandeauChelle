@@ -16,16 +16,16 @@ public class Main {
      */
     public static void main(String[] args) {
         Bandeau monBandeau = new Bandeau();
-           Tourner t=new Tourner(monBandeau);
-            Clignoter c=new Clignoter(monBandeau);
-            Zoomer z=new Zoomer(monBandeau);
-            ArcEnCiel a=new ArcEnCiel(monBandeau);
-            Scenario s = new Scenario();
-            s.addEffets(t,2);
-            s.addEffets(c,5);
-            s.addEffets(z,1);
-            s.addEffets(a,1);
-            s.AfficherTousLesEffets();
+        Tourner t = new Tourner(monBandeau);
+        Clignoter c = new Clignoter(monBandeau);
+        Zoomer z = new Zoomer(monBandeau);
+        ArcEnCiel a = new ArcEnCiel(monBandeau);
+        Scenario s = new Scenario();
+        s.addEffets(t, 2);
+        s.addEffets(c, 5);
+        s.addEffets(z, 1);
+        s.addEffets(a, 1);
+        s.AfficherTousLesEffets();
     }
-    
+
 }

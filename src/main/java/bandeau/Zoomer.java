@@ -13,7 +13,7 @@ import java.awt.Font;
  */
 public class Zoomer extends Effets {
 
-    public Zoomer(Bandeau monBandeau, int repetition) {
+    public Zoomer(Bandeau monBandeau) {
         super(monBandeau);
     }
 

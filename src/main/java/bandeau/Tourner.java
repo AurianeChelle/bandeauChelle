@@ -11,7 +11,7 @@ package bandeau;
  */
 public class Tourner extends Effets{
     
-    public Tourner(Bandeau monBandeau, int repetition){
+    public Tourner(Bandeau monBandeau){
         super(monBandeau);
 	}
     
